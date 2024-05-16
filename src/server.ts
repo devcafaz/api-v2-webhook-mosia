@@ -9,7 +9,7 @@ app.get("/", (req,res) => {
 })
 
 app.post("/ocorrencia", (req,res)=> {
-    console.log(req)
+    console.log(req.body)
 })
 
 app.listen(PORT, ()=>{
