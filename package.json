@@ -10,7 +10,8 @@
     "dev": "tsx watch src/server.ts",
     "postinstall": "tsup src --out-dir build",
     "build": "tsup src --out-dir build",
-    "start": "node ./build/server.js"
+    "start": "node ./build/server.js",
+    "production": "node ./build/server.js"
   },
   "keywords": [],
   "author": "",
